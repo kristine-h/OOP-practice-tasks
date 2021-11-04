@@ -1,7 +1,6 @@
 #include <iostream>
 #include <time.h>
 
-
 class Vertex {
 public:
 	Vertex();
