@@ -15,7 +15,6 @@ private:
 	double mass_;
 	const double G_ = 6.6743E-11;
 	double calculate_gravity() const { return (G_ * mass_) / (radius_ * radius_);}
-
 };
 
 int main() {
