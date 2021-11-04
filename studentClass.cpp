@@ -14,7 +14,7 @@ void Student::set_name_and_surname() {
                 std::cin >> name_; 
                 std::cout << "Enter the surname of the student: ";
                 std::cin >> surname_;
-        }
+}
 
 void Student::get_name_and_surname() const {
 	std::cout << "The name of the student is: " << name_ << std::endl;
