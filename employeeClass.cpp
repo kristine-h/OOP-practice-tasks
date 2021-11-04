@@ -18,9 +18,7 @@ void Employee::get_info() const {
 	std::cout << name_ << "\t\t\t" << year_of_joining_ << "\t\t\t" << salary_ << "\t\t\t" << address_ <<std::endl;
 }
 
-
 int main() {
-
 	Employee firstEmployee;
 	Employee secondEmployee;
 	Employee thirdEmployee;
@@ -44,6 +42,5 @@ int main() {
 	firstEmployee.get_info();
 	secondEmployee.get_info();
 	thirdEmployee.get_info();
-
 	return 0;
 }
