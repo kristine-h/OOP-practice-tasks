@@ -2,7 +2,7 @@
 
 class Fibonacci {
 public:
-	Fibonacci() { x_ = 0; y_ = 1; z_ = x_ + y_;}
+	Fibonacci() { x_ = 0; y_ = 1; z_ = x_ + y_; }
 	void printFibonacciNumbers(int);
 private:
 	int x_;
