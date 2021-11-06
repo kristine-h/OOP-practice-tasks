@@ -2,12 +2,12 @@
 
 class Planets {
 public:
-	void set_name(const std::string& name) { name_ = name;}
-	void set_radius(const double& radius) { radius_ = radius;}
-	void set_distance(const double& distance) { distance_from_the_Sun = distance;}
-	void set_mass(const double& mass) { mass_ = mass;}
-	std::string get_name() const { return name_;}
-	double get_gravity() const { return calculate_gravity();}
+	void set_name(const std::string& name) { name_ = name; }
+	void set_radius(const double& radius) { radius_ = radius; }
+	void set_distance(const double& distance) { distance_from_the_Sun = distance; }
+	void set_mass(const double& mass) { mass_ = mass; }
+	std::string get_name() const { return name_; }
+	double get_gravity() const { return calculate_gravity(); }
 private:
 	std::string name_;
 	double distance_from_the_Sun;
