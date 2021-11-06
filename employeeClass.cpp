@@ -2,10 +2,10 @@
 
 class Employee {
 public:
-	void set_name(const std::string& name) {name_ = name;}
-	void set_year_of_joining(int year) {year_of_joining_ = year;}
-	void set_salary(double salary) {salary_ = salary;}
-	void set_address(const std::string& address) {address_ = address;}
+	void set_name(const std::string& name) { name_ = name; }
+	void set_year_of_joining(int year) { year_of_joining_ = year; }
+	void set_salary(double salary) { salary_ = salary; }
+	void set_address(const std::string& address) { address_ = address; }
 	void get_info() const;
 private:
         std::string name_;
